@@ -23,6 +23,8 @@ return {
 				"clang-format", -- c++ formatter
 				"cpplint", -- c++ linter
 				"gofumpt", -- golang formatter
+				"yamllint", -- yaml linter
+				"yamlfmt", -- yaml formatter
 			},
 		})
 

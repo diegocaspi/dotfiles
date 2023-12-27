@@ -40,6 +40,7 @@ return {
 				"gopls",
 				"clangd",
 				"java_language_server",
+				"yamlls",
 			},
 			-- auto-install configured servers (with lspconfig)
 			automatic_installation = true, -- not the same as ensure_installed
@@ -57,6 +58,8 @@ return {
 				"gofumpt", -- golang formatter
 				"clang-format", -- c++ formatter
 				"cpplint", -- c++ linter
+				"yamllint", -- yaml linter
+				"yamlfmt", -- yaml formatter
 			},
 		})
 	end,
