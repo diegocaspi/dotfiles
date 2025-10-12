@@ -1,0 +1,20 @@
+add_newline = false
+format = "$directory"
+
+[aws]
+disabled = true
+symbol = "  "
+
+[azure]
+disabled = true
+format = "on [$symbol($subscription)]($style) "
+style = "blue bold"
+symbol = "󰠅 "
+
+[azure.subscription_aliases]
+Cooling-EcsAms = "az-alsense"
+dcs-incubator-prod-001 = "az-incubator"
+
+[kubernetes]
+disabled = false
+format = "on [⎈ ($context) ($namespace)](dimmed green) "
