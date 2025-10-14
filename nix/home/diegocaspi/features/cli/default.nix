@@ -17,5 +17,6 @@
     btop
     devbox
     starship
+    claude-code
   ];
 }

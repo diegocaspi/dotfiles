@@ -16,5 +16,4 @@ Cooling-EcsAms = "az-alsense"
 dcs-incubator-prod-001 = "az-incubator"
 
 [kubernetes]
-disabled = false
 format = "on [⎈ ($context) ($namespace)](dimmed green) "

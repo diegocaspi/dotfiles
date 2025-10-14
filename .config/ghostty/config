@@ -1,3 +1,4 @@
 theme = catppuccin-mocha.conf
 background-opacity = 0.85
 background-blur-radius = 95
+keybind = shift+enter=text:\x1b\r

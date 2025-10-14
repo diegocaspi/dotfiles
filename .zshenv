@@ -4,5 +4,6 @@ if [[ -z "$__HM_ZSH_SESS_VARS_SOURCED" ]]; then
 
 fi
 
+export XDG_CONFIG_HOME="$HOME/.config"
 export PATH=$HOME/development/flutter/bin:$PATH
 export PATH=$HOME/.bun/bin:$PATH%
