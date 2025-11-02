@@ -15,8 +15,10 @@
     aerospace
     eza
     btop
-    devbox
+    devbox # to be deleted
     starship
     claude-code
+    rustup
+    devenv
   ];
 }
