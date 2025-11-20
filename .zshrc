@@ -40,3 +40,4 @@ alias lg=lazygit
 alias ll='eza -l'
 alias vi=nvim
 alias y=yazi
+alias cl=clear
