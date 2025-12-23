@@ -41,3 +41,6 @@ alias ll='eza -l'
 alias vi=nvim
 alias y=yazi
 alias cl=clear
+
+# opencode
+export PATH=/Users/diegocaspi/.opencode/bin:$PATH

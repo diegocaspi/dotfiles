@@ -1,4 +1,5 @@
-export ZELLIJ_AUTO_EXIT=true
+export ZELLIJ_AUTO_EXIT=false
+export ZELLIJ_AUTO_ATTACH=true
 
 # Only source this once
 if [[ -z "$__HM_ZSH_SESS_VARS_SOURCED" ]]; then
