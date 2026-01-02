@@ -1,6 +1,7 @@
 .devbox
 **/direnv/lib
 
+.config/direnv
 # Devenv
 .devenv*
 devenv.local.nix
