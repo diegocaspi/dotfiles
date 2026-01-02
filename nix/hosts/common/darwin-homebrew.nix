@@ -28,8 +28,6 @@
     ];
 
     casks = [
-      "jordanbaird-ice"
-      "headlamp"
       "font-fira-code"
       "ghostty"
       "raycast"
