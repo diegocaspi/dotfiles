@@ -9,13 +9,13 @@
     ./zsh.nix
     ./zellij.nix
     ./direnv.nix
+    ./go.nix
   ];
 
   home.packages = with pkgs; [
     aerospace
     eza
     btop
-    devbox # to be deleted
     starship
     claude-code
     rustup
