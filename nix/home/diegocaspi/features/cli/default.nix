@@ -20,5 +20,6 @@
     claude-code
     rustup
     devenv
+    just
   ];
 }

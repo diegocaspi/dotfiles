@@ -44,3 +44,11 @@ alias cl=clear
 
 # opencode
 export PATH=/Users/diegocaspi/.opencode/bin:$PATH
+
+# cargo
+export PATH="$HOME/.cargo/bin:$PATH"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/diegocaspi/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
