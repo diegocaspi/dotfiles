@@ -15,6 +15,11 @@
       exec = "cd nix && sudo nix run --extra-experimental-features nix-command --extra-experimental-features flakes nix-darwin -- switch --flake .#nyxal";
       description = "Apply the configuration using stow";
     };
+    
+    nixup = {
+      exec = "cd nix && nix flake update && sudo nix run --extra-experimental-features nix-command --extra-experimental-features flakes nix-darwin -- switch --flake .#nyxal";
+      description = "Update the nix packages and configuration";
+    };
 
     clean = {
       exec = "nix-collect-garbage -d";
