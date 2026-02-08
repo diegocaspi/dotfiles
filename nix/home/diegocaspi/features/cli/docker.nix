@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
-    colima
+    # colima
     lazydocker
     docker-client
     docker-compose
