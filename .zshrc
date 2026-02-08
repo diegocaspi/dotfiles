@@ -1,5 +1,3 @@
-eval "$(zellij setup --generate-auto-start zsh)"
-
 ZSH_AUTOSUGGEST_STRATEGY=(history)
 
 # tools
@@ -35,7 +33,10 @@ function yy() {
 
 # aliases
 alias dx=devbox
+
 alias k=kubectl
+alias kx=kubectx
+
 alias lg=lazygit
 alias ll='eza -l'
 alias vi=nvim
@@ -52,3 +53,12 @@ fpath=(/Users/diegocaspi/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# Added by GitButler installer
+export PATH="/Users/diegocaspi/.local/bin:$PATH"
+eval "$(but completions zsh)"
