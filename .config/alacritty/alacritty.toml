@@ -1,0 +1,2 @@
+[general]
+import = ["/Users/diegocaspi/.config/alacritty/theme.toml"]
